@@ -1,0 +1,2181 @@
+<!DOCTYPE html>
+<html style=" overflow-y: hidden;" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./Style sheets/style.css" />
+    <link rel="stylesheet" href="./Style sheets/utility.css" />
+  </head>
+  <body class="bg-black">
+    <div class="container flex">
+      <div class="left">
+        <div class="upper bg-gray rounded m-1">
+          <img src="./icons/Cross.svg" class="cross" alt="">
+          <ul class="options">
+            <img src="./icons/logo.svg" alt="logo" />
+            <li class="flex"><img src="./icons/home.svg" alt="home" />Home</li>
+            <li class="flex">
+              <img id="serach-img" src="./icons/search.svg" alt="search" /><span
+                id="search-text"
+                >Search</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="lower bg-gray rounded m-1">
+          <div class="library flex item-center">
+            <div class="head flex item-center">
+              <li>
+                <img
+                  id="library-img"
+                  src="./icons/library.svg"
+                  alt="Playlist"
+                />
+              </li>
+              <span id="library-text">Your Library</span>
+            </div>
+            <div class="more"><img src="./icons/more.svg" alt="more" /></div>
+          </div>
+          <div class="playlists rounded">
+            <div class="text">
+              <div class="mess1">Create your first playlist</div>
+              <div class="mess2">It's easy, we'll help you</div>
+            </div>
+            <div class="button">
+              <button class="butt">Create Playlist</button>
+            </div>
+          </div>
+          <div class="podcasts rounded">
+            <div class="text">
+              <div class="mess1">Let's find some podcast to follow</div>
+              <div class="mess2">We'll keep you updated on new episodes</div>
+            </div>
+            <div class="button">
+              <button class="butt">Browse Podcasts</button>
+            </div>
+          </div>
+          <div class="songList">
+            <ul class="">
+              <!-- <li>
+                <img src="./icons/music.svg" class="songImage" alt="">
+                <div class="info">
+                  <div class="songName">Song Name</div>
+                  <div class="artist">Song Artist</div>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+          <div class="footer"></div>
+        </div>
+      </div>
+      <div class="right bg-black">
+        <nav class="navigation flex item-center bg-gray rounded">
+          <div class="arrows flex item-center">
+            <img src="./icons/hamburger.svg" class="hamburger" alt="">
+            <button class="back-btn item-center flex">
+              <img
+                src="./icons/arrow-left-01-stroke-rounded.svg"
+                alt="back"
+                class="back"
+              />
+            </button>
+            <button class="forward-btn flex item-center">
+              <img
+                src="./icons/arrow-right-01-stroke-rounded.svg"
+                alt="forward"
+                class="forward"
+              />
+            </button>
+          </div>
+          <div class="sign-log flex item-center">
+            <button class="sign-up">Sign up</button>
+            <button class="log-in">Log in</button>
+          </div>
+        </nav>
+
+        <div class="main bg-grad rounded">
+          <div class="spotifyPlaylist">
+            <h1 class="cards-heading">Spotify Playlists</h1>
+            <div class="cardsContainer flex item-center">
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="spotifyPlaylist">
+            <h1 class="cards-heading">Spotify Playlists</h1>
+            <div class="cardsContainer flex item-center">
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="spotifyPlaylist">
+            <h1 class="cards-heading">Spotify Playlists</h1>
+            <div class="cardsContainer flex item-center">
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="spotifyPlaylist">
+            <h1 class="cards-heading">Spotify Playlists</h1>
+            <div class="cardsContainer flex item-center">
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="spotifyPlaylist">
+            <h1 class="cards-heading">Spotify Playlists</h1>
+            <div class="cardsContainer flex item-center">
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="spotifyPlaylist">
+            <h1 class="cards-heading">Spotify Playlists</h1>
+            <div class="cardsContainer flex item-center">
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="spotifyPlaylist">
+            <h1 class="cards-heading">Spotify Playlists</h1>
+            <div class="cardsContainer flex item-center">
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="spotifyPlaylist">
+            <h1 class="cards-heading">Spotify Playlists</h1>
+            <div class="cardsContainer flex item-center">
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+              <div class="card rounded">
+                <div class="rounded-container">
+                  <svg
+                    class="svg-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                      stroke="black"
+                      stroke-width="1.5"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <img
+                  class="card-img rounded"
+                  src="/Cards Images/Spotify Playlist/Viral Hits.jpeg"
+                  alt=""
+                />
+                <h2 class="card-heading">Viral Hits</h2>
+                <p class="card-text">
+                  A mix of the biggest pop, dance and hip hop party songs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="help"></div>
+        </div>
+      </div>
+    </div>
+    <div class="playBar item-center" id="Play_Bar">
+      <input type="range" name="" id="range" min="0" value="0" />
+      <div class="songButtons item-center">
+        <div class="controls flex item-center">
+          <img src="./icons/prevSong.svg" alt="Previous" />
+          <img src="./icons/playSong.svg" id="playIt" alt="Play" />
+          <img src="./icons/nextSong.svg" alt="Next" />
+          <span id="song-time"></span>
+        </div>
+        <div class="allInfo flex item-center">
+          <ul id="songTitle" class="songInfo">
+            <li>
+              <img src="./icons/music.svg" class="songImage" alt="" />
+              <div class="info">
+                <div id="whichSong" class="songName">Song is not playing</div>
+                <div class="artist">Mohak</div>
+              </div>
+            </li>
+          </ul>
+          <div class="like-dislike flex">
+            <img src="./icons/like.svg" alt="" class="like" />
+            <img src="./icons/dislike.svg" alt="" class="dislike" />
+          </div>
+        </div>
+        <div class="moreControls flex item-center">
+          <img src="./icons/shuffle.svg" alt="shuffle" class="shuffle">
+          <img src="./icons/repeatAll.svg" alt="repeat" class="repeat">
+          <img src="./icons/volume.svg" alt="volume" class="volume">
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- <script src="./Logics/script.js"></script> -->
+  <script src="./Logics/cleanScript.js"></script>
+</html>

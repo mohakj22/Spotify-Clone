@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Range Thumb Opacity</title>
+    <style>
+        input[type="range"] {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 15px;
+            background: #ddd;
+            outline: none;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 25px;
+            height: 25px;
+            background: #4CAF50;
+            cursor: pointer;
+            opacity: 1;
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            width: 25px;
+            height: 25px;
+            background: #4CAF50;
+            cursor: pointer;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <input type="range" id="rangeSlider" min="1" max="100" value="50">
+
+    <script>
+        const rangeSlider = document.getElementById('rangeSlider');
+
+        rangeSlider.addEventListener('mouseover', () => {
+            const thumb = rangeSlider;
+            thumb.style.setProperty('--thumb-opacity', '1');
+            rangeSlider.style.cursor = 'pointer';
+        });
+
+        rangeSlider.addEventListener('mouseout', () => {
+            const thumb = rangeSlider;
+            thumb.style.setProperty('--thumb-opacity', '0');
+            rangeSlider.style.cursor = 'default';
+        });
+
+        // Applying the opacity change to the thumb
+        document.styleSheets[0].insertRule(`
+            input[type="range"]::-webkit-slider-thumb {
+                opacity: var(--thumb-opacity, 1);
+            }
+        `, document.styleSheets[0].cssRules.length);
+        
+        document.styleSheets[0].insertRule(`
+            input[type="range"]::-moz-range-thumb {
+                opacity: var(--thumb-opacity, 1);
+            }
+        `, document.styleSheets[0].cssRules.length);
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="slideContainer">
+      <input
+        type="range"
+        name=""
+        id="myRange"
+        value="0"
+        class="slider"
+        min="0"
+        max="100"
+        step="1"
+      />
+      <p>value: <span id="value"></span></p>
+    </div>
+    <script>
+      var slider = document.getElementById("myRange");
+      var output = document.getElementById("value");
+      output.innerHTML = slider.value;
+      slider.oninput = function () {
+        output.innerHTML = this.value;
+      };
+      slider.addEventListener("mousemove", () => {
+        let x = slider.value;
+        let color = `linear-gradient(90deg, rgb(117, 252, 117)`+ x+ `%,`+`rgb(214,214,214)`+ x +`%)`;
+        slider.style.background = color;
+      });
+      slider.addEventListener("click", () => {
+        let x = slider.value;
+        let color = `linear-gradient(90deg, rgb(117, 252, 117)`+ x+ `%,`+`rgb(214,214,214)`+ x +`%)`;
+        slider.style.background = color;
+      });
+    </script>
+  </body>
+</html>
